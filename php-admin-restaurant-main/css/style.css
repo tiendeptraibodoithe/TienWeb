@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(152, 108, 45);
+  overflow-x: hidden;
+  color: white;
+}
+/* header */
+.navbar {
+  opacity: 0.9;
+}
+.img-logo {
+  max-width: 100px;
+  width: 100%;
+}
+.logo-fooder {
+  max-width: 120px !important;
+}
+.nav-link,
+.dropdown-item {
+  font-weight: 600 !important;
+  color: white;
+}
+.nav-link:focus,
+.nav-link:hover,
+.dropdown-item:focus,
+.menu:focus {
+  color: rgb(225, 182, 144);
+}
+.lni {
+  font-size: 2rem;
+  color: white;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.dropdown > .dropdown-menu {
+  border: none;
+  border-radius: 0;
+}
+/* fooder */
+.fooder {
+  color: rgba(255, 255, 255, 0.718);
+  background-color: rgba(10, 6, 1, 0.627);
+}
+.gallery-container .card {
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  width: 100px;
+  height: 100px;
+}
+
+.gallery-container .card:hover {
+  transform: scale(1.05);
+}
+
+.gallery-container .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+i {
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.718);
+  font-style: normal;
+}
+
+/* Silder 1 */
+.c-item {
+  height: 100vh;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+.carousel-indicators {
+  display: none; /* Ẩn các chỉ báo */
+}
+
+/* Gallery */
+.pic-container .card-pic {
+  max-width: 350px;
+  max-height: 300px;
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  width: 100%;
+  height: 100%;
+}
+.lagre {
+  max-width: 700px !important;
+  max-height: 620px !important;
+}
+.pic-container .card-pic:hover {
+  transform: scale(1.05);
+}
+
+.pic-container .card-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-content {
+  max-width: 600px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.modal-body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Biểu tượng */
+.text {
+  opacity: 0.9;
+  font-size: medium;
+}
+
+/* Menu */
+.pm {
+  width: 70px;
+}
+.menu-item {
+  position: relative;
+  margin-top: 30px;
+  border-top: 2px dotted rgb(0, 0, 0);
+}
+.title-item-1 {
+  color: rgb(225, 182, 144);
+  position: absolute;
+  top: -15px;
+  left: -10px;
+  background-color: rgb(90, 20, 3);
+  font-size: larg;
+}
+.title-item-2 {
+  color: rgb(225, 182, 144);
+  position: absolute;
+  top: -15px;
+  right: 0;
+  background-color: rgb(90, 20, 3);
+  font-size: large;
+}
+.note-item {
+  color: rgb(225, 182, 144);
+  margin-top: 20px;
+  margin-left: -20px;
+}
+#book {
+  margin-top: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.line {
+  width: 200px;
+  border-top: 2px dotted rgb(0, 0, 0);
+  margin-bottom: 10px;
+  height: 10px;
+}
+.books {
+  background-color: rgb(207, 134, 9);
+}
+.btn {
+  background-color: #ff5733; /* Đổi màu nền thành màu cam */
+  color: white; /* Đổi màu chữ thành trắng */
+  border: none; /* Bỏ viền (nếu cần) */
+}
+
+.btn:hover {
+  background-color: #e74c3c; /* Màu nền khi rê chuột */
+  color: #f0f0f0; /* Màu chữ khi rê chuột */
+}

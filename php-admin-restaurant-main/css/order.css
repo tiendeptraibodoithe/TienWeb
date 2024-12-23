@@ -1,0 +1,25 @@
+.select-menu {
+  height: fit-content;
+}
+
+.add-order-btn {
+  height: fit-content;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.export-order-btn {
+  height: fit-content;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.ti-trash {
+  cursor: pointer;
+}
